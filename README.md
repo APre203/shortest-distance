@@ -1,5 +1,6 @@
 # shortest-distance
 Shortest distance game using pygame
+
 How to play:
 1. Run the program
 2. You will see a counter on the top, this is the time to click on the screen to create barriers (The counter can be changed by chaning the global variable "count")
