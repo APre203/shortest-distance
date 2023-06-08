@@ -20,7 +20,7 @@ GRID = []
 TOTAL_GRID = []
 
 #Change to increase the total number of barriers able to be placed
-count = 15
+COUNT = 15
 
 TYPE = "Queue" #Change to either "Stack" (for DFS) or "Queue" (for BFS) -- Queue will find shortest path using BFS however Stack does not guarantee a shortest path (DFS)
 
@@ -28,6 +28,6 @@ def main():
     START = Node(0,0,None)
     END = Node(ROWS-2,ROWS-2,None)
     makecolor(0,TOTAL_GRID, ROWS, GRID)
-    play_game(START, END, GRID, WINDOW_SIZE, SIZE, ROWS, count, TYPE,MARGIN,WIDTH,HEIGHT, TOTAL_GRID)
+    play_game(START, END, GRID, WINDOW_SIZE, SIZE, ROWS, COUNT, TYPE,MARGIN,WIDTH,HEIGHT, TOTAL_GRID)
 
 main()
